@@ -1,0 +1,10 @@
+<h1>Cartoon</h1>
+  <ul>
+    <li style="list-style-type: none" *ngFor="let cartoon of cartoonList;"><br />
+      <h2>{{cartoon.name}}</h2><br />
+      <div class="pic">
+      <img src="{{cartoon.url}}" align="middle">
+      </div>
+    </li><br/><br/>
+    <h4>{{creatorText}}</h4>
+  </ul>
